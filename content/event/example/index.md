@@ -1,44 +1,44 @@
 ---
-title: Example Talk
+title: "Re-purposing Juvenile Delinquency: Juvenile Justice Purpose Clauses and Incorrigible Kids"
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: 20th Annual Hawaii International Conference
+event_url: https://hiceducation.org/
 
-location: Wowchemy HQ
+location: Hilton Waikoloa Village, Waikoloa, Hawaii, Island of Hawaii
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: 69-425 Waikōloa Beach Dr.
+  city: Waikoloa Village
+  region: HI
+  postcode: '96738'
   country: United States
 
-summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: Labeling Kids Incorrigible is not consistent with State Purpose Clauses that emphasize a Youth Development Approach.
+abstract: "In Jones v. Mississippi 593 U.S. ___ (2021), the United States Supreme Court held that the Eighth Amendment does not require a trial court to make a specific finding that an under-aged youth sentenced to life without the possibility of parole is “permanently incorrigible.” The holding in this case represents the historic tension between viewing children as individuals who can be rehabilitated versus viewing them as violent offenders who are incapable of reform. Moreover, this holding diminishes years of precedent that recognizes key developmental differences between adults and youth. 
+
+
+In this paper, we argue that the holding in Jones cannot be reconciled with state purpose clauses that emphasize a developmental approach and should be viewed in light of existing standards (e.g., the “school to prison” pipeline) that punish children due to “incorrigible” behavior and other “conduct disorders.” In this scheme, we view the incorrigibility standard as a mere extension of U.S government sanctioned policies that disproportionately impact Black and Indigenous children of color. We present evidence that children deemed incorrigible are not rehabilitated but have worse outcomes and that rehabilitation necessitates the availability of community based resources, especially for behavioral health. Labeling kids as incorrigible has resulted in individual, community, and intergenerational trauma with implications for schools, families and the criminal justice system and should be abandoned."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2022-01-05T8:00:00Z"
+date_end: "2022-01-05T8:00:00Z"
 all_day: false
 
-# Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
-
-authors: []
-tags: []
+authors: [Barboza, Gia; Radabaugh, Rich]
+tags: [incorrigible, positive youth development, New Mexico]
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: Me'
   focal_point: Right
 
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/BarbozaLaw
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -57,17 +57,7 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- example
+- incorrigible
 ---
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+{{< icon name="download" pack="fas" >}} Download the {{< staticref "uploads/Hawaii_presentation_2022.pdf" "newtab" >}}presentation here{{< /staticref >}}.
