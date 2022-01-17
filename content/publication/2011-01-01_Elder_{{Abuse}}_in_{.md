@@ -1,7 +1,7 @@
 +++
 title = "Elder Abuse in Nursing Homes: An Ecological Perspective"
 date = "2011-01-01"
-authors = ["Lawrence B. Schiamberg", "Gia G. Barboza", "James Oehmke", "Zhenmei Zhang", "Robert J. Griffore", "Robin P. Weatherill", "Levente {von Heydrich}", "Lori A. Post"]
+authors = ["Lawrence B. Schiamberg", "Gia G. Barboza", "James Oehmke", "Zhenmei Zhang", "Robert J. Griffore", "Robin P. Weatherill", "Levente von Heydrich", "Lori A. Post"]
 publication_types = ["2"]
 publication = "Journal of Elder Abuse & Neglect, 23(2) 190--211. https://doi.org/10.1080/08946566.2011.558798"
 publication_short = "Journal of Elder Abuse & Neglect, 23(2) 190--211. https://doi.org/10.1080/08946566.2011.558798"

@@ -1,5 +1,5 @@
 +++
-title = "Circumcision Is a Primary Preventive against {{HIV}} Infection: {{Critique}} of a Contrary Meta-Regression Analysis by {{Van Howe}}"
+title = "Circumcision Is a Primary Preventive against HIV Infection: Critique of a Contrary Meta-Regression Analysis by Van Howe"
 date = "2018-01-01"
 authors = ["Brian J. Morris", "Gia Barboza", "Richard G. Wamai", "John N. Krieger"]
 publication_types = ["2"]

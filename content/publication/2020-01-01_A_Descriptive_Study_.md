@@ -1,5 +1,5 @@
 +++
-title = "A Descriptive Study of Racial and Ethnic Differences of Drug Overdoses and Naloxone Administration in {{Pennsylvania}}"
+title = "A Descriptive Study of Racial and Ethnic Differences of Drug Overdoses and Naloxone Administration in Pennsylvania"
 date = "2020-01-01"
 authors = ["Gia Elise Barboza", "Kate Angulski"]
 publication_types = ["2"]

@@ -16,18 +16,18 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: 100%
   icon: r-project
   icon_pack: fab
-  name: R
+  name: Jupyter Notebook  <br> R and R Studio <br>  Python   <br> JASP <br> STATA  <br> SAS  <br> SQL
 - description: 100%
   icon: chart-line
   icon_pack: fas
-  name: Statistics
-- description: 10%
-  icon: camera-retro
+  name:    Spatial Analysis & Geostatistical modeling  <br>Structural Equation Modeling <br> Growth Mixture Modeling  <br> Latent Class Analysis  <br> Multilevel Modeling  <br> Network Analysis   <br> 
+- description: 100%
+  icon: street-view
   icon_pack: fas
-  name: Photography
+  name: PostgresSQL <br>  ArcGIS pro  <br> QGIS  <br> LaTeX  <br> GeoDa  
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"

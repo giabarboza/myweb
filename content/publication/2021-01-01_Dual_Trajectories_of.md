@@ -1,5 +1,5 @@
 +++
-title = "Dual Trajectories of Parenting Self-efficacy and Depressive Symptoms in New, Postpartum Mothers and Socioemotional Adjustment in Early Childhood: {{A}} Growth Mixture Model"
+title = "Dual Trajectories of Parenting Self-efficacy and Depressive Symptoms in New, Postpartum Mothers and Socioemotional Adjustment in Early Childhood: A Growth Mixture Model"
 date = "2021-01-01"
 authors = ["Gia Elise Barboza", "Lawrence Schiamberg"]
 publication_types = ["2"]

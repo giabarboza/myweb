@@ -1,5 +1,5 @@
 +++
-title = "Trajectories of Post-Traumatic Stress and Externalizing Psychopathology among Maltreated Foster Care Youth: {{A}} Parallel Process Latent Growth Curve Model"
+title = "Trajectories of Post-Traumatic Stress and Externalizing Psychopathology among Maltreated Foster Care Youth: A Parallel Process Latent Growth Curve Model"
 date = "2017-01-01"
 authors = ["Gia Elise Barboza", "Silvia Dominguez", "Jyda Pinder"]
 publication_types = ["2"]

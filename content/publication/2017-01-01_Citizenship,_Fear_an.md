@@ -1,5 +1,5 @@
 +++
-title = "Citizenship, Fear and Support for the Criminalization of Immigration: {{Contextualizing Mexican Americans}}' Attitudes about the Role of Law Enforcement"
+title = "Citizenship, Fear and Support for the Criminalization of Immigration: Contextualizing Mexican Americans' Attitudes about the Role of Law Enforcement"
 date = "2017-01-01"
 authors = ["Gia Barboza", "Silvia Dominguez", "Laura Siller", "Miguel Montalva"]
 publication_types = ["2"]

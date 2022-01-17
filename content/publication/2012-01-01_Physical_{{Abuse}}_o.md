@@ -1,7 +1,7 @@
 +++
 title = "Physical Abuse of Older Adults in Nursing Homes: A Random Sample Survey of Adults With an Elderly Family Member in a Nursing Home"
 date = "2012-01-01"
-authors = ["Lawrence B. Schiamberg", "James Oehmke", "Zhenmei Zhang", "Gia E. Barboza", "Robert J. Griffore", "Levente {Von Heydrich}", "Lori A. Post", "Robin P. Weatherill", "Teresa Mastin"]
+authors = ["Lawrence B. Schiamberg", "James Oehmke", "Zhenmei Zhang", "Gia E. Barboza", "Robert J. Griffore", "Levente Von Heydrich", "Lori A. Post", "Robin P. Weatherill", "Teresa Mastin"]
 publication_types = ["2"]
 publication = "Journal of Elder Abuse & Neglect, 24(1) 65--83. https://doi.org/10.1080/08946566.2011.608056"
 publication_short = "Journal of Elder Abuse & Neglect, 24(1) 65--83. https://doi.org/10.1080/08946566.2011.608056"

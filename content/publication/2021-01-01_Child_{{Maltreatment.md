@@ -1,7 +1,7 @@
 +++
 title = "Child Maltreatment, School Bonds, and Adult Violence: A Serial Mediation Model"
-date = "2021-01-01"
-authors = ["Gia {Elise Barboza}", "Laura A. Siller"]
+date = "2017-01-01"
+authors = ["Gia Elise Barboza", "Laura A. Siller"]
 publication_types = ["2"]
 publication = "Journal of Interpersonal Violence, 36(11-12) NP5839-NP5873. https://doi.org/10.1177/0886260518805763"
 publication_short = "Journal of Interpersonal Violence, 36(11-12) NP5839-NP5873. https://doi.org/10.1177/0886260518805763"

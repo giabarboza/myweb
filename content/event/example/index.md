@@ -21,7 +21,7 @@ In this paper, we argue that the holding in Jones cannot be reconciled with stat
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2022-01-05T8:00:00Z"
-date_end: "2022-01-05T8:00:00Z"
+date_end: "2022-01-05T9:30:00Z"
 all_day: false
 
 authors: [Barboza, Gia; Radabaugh, Rich]
