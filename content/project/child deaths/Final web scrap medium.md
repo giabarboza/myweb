@@ -19,7 +19,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/BarbozaLaw
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -32,8 +32,6 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
-
-# Mining Child Homicides in Los Angeles County
 
 <img src="https://github.com/elisegia/coroner_data/blob/master/Screen%20Shot%202020-04-13%20at%202.07.09%20PM.png?raw=true" />
 
