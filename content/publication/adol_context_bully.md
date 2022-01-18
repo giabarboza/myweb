@@ -1,9 +1,9 @@
 +++
-title = "The Theory and Practice of Elder-Abuse Prevention"
+title = "The adolescent parent context and positive youth development in the ecology of cyberbullying. A social-ecological approach to cyberbullying"
 date = "2021-01-01"
 authors = ["Gia Elise Barboza"]
 publication_types = ["6"]
-publication = "Schiamberg, L. B., Barboza, G., Chee, G., & Hsieh, M. C. (2016). The adolescentparent context and positive youth development in the ecology of cyberbullying. A social-ecological approach to cyberbullying. New York, NY: Nova Science Publishers."
+publication = "Schiamberg, L. B., Barboza, G., Chee, G., & Hsieh, M. C. (2016). The adolescent parent context and positive youth development in the ecology of cyberbullying. A social-ecological approach to cyberbullying. New York, NY: Nova Science Publishers."
 publication_short = "Schiamberg, L. B., Barboza, G., Chee, G., & Hsieh, M. C. (2016). The adolescentparent context and positive youth development in the ecology of cyberbullying. A social-ecological approach to cyberbullying. New York, NY: Nova Science Publishers."
 abstract = ""
 abstract_short = ""
