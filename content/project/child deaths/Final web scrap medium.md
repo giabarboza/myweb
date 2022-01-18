@@ -66,10 +66,11 @@ Below are the packages I used for the webscraping.
 
 
 ```python
-
+options(width = 300)
 import pandas as pd  
 from pandas import ExcelWriter
-pd.options.mode.chained_assignment = None # see https://stackoverflow.com/questions/20625582/how-to-deal-with-settingwithcopywarning-in-pandas
+pd.options.mode.chained_assignment = None 
+# see article how-to-deal-with-settingwithcopywarning-in-pandas
 
 import urllib
 from selenium.webdriver.support.ui import WebDriverWait
@@ -149,7 +150,9 @@ all_deaths_under_6 = result1 + results
 test = soup2.find_all('div', attrs={'post-teaser row'})
 test1 = soup2.find_all('article', attrs={'post-teaser row'})
 all_deaths_under_6_div = test + test1
-print ('There were {} child homicides of children under 6 in LA County since 1/1/2000'.format(str(len(all_deaths_under_6_div))))
+print 
+('There were {} child homicides of children under 6 in LA County since 1/1/2000'
+.format(str(len(all_deaths_under_6_div))))
 ```
 
     There were 471 child homicides of children under 6 in LA County since 1/1/2000
@@ -157,11 +160,9 @@ print ('There were {} child homicides of children under 6 in LA County since 1/1
 
 
 ```python
+options(width = 300)
 all_deaths_under_6_div[0] 
 ```
-
-
-
 
     <div class="post-teaser row">
     <aside class="span2 offset1 hidden-phone">
@@ -193,13 +194,12 @@ all_deaths_under_6_div[0]
     </article>
     </div>
 
-
-
 ## Results
-There were 470 child homicides during the period. The code above grabbed all of the data that is on the website. The following code parses the text so that it can be stored as data in a data frame. To do so, it is necessary to find all of the unlinked lists (ul's) with class label 'badge-location' to store the child's name, death date, spatial coordinates (which are located in the tag for the image source, as well as the race, gender, age and cause of death listed by the medical-examiner, coroner. Finally, in order to perform textual analysis (e.g., Latent Dirichlet Allocation modeling) the code grabs the description of the details surrounding the death as well as the LA Times reporting of the death.
+There were 471 child homicides during the period. The code above grabbed all of the data that is on the website. The following code parses the text so that it can be stored as data in a data frame. To do so, it is necessary to find all of the unlinked lists (ul's) with class label 'badge-location' to store the child's name, death date, spatial coordinates (which are located in the tag for the image source, as well as the race, gender, age and cause of death listed by the medical-examiner, coroner. Finally, in order to perform textual analysis (e.g., Latent Dirichlet Allocation modeling) the code grabs the description of the details surrounding the death as well as the LA Times reporting of the death.
 
 
 ```python
+options(width = 800)
 BASE_URL = 'https://homicide.latimes.com/'
 
 url = []
@@ -216,7 +216,8 @@ g = []
 j=0
 for r in all_deaths_under_6_div:
 
-    containers = r.findAll("ul",{"class" : lambda L: L and L.startswith('badge-location')})   #Find all ul with class: badge-location
+    containers = r.findAll("ul",{"class" : lambda L: L and L.startswith('badge-location')})   
+    #Find all ul with class: badge-location
     
     for container in containers: 
         c_names = containers[j].findAll("li")
@@ -289,11 +290,7 @@ In order to see the article text (stored in position 9) for the 10th record type
 clist[10][9]
 ```
 
-
-
-
     'Jennabel Anaya, a 4-year-old Latina, died Sunday, Aug. 7, after she was shot in the intersection of East 9th Street and Locust Avenue in Long Beach, according to Los Angeles County coroner’s records.\xa0City and county authorities announced Friday a $40,000 reward for information leading to the arrest and conviction of the person who killed Anaya and her mother, Carina Mancera, 26.\xa0The girl was walking home from the grocery store with her mother and father, Luis Anaya, on Aug. 6, when a man approached the family about 10:20 p.m. and began shooting, according to Long Beach Police Sgt. Robert Woods.\xa0Mancera, 26, was pronounced dead at the scene at 10:27 p.m., according to coroner’s records. Jennabel was taken to a nearby hospital, where she was pronounced dead at 12:01 a.m. Aug. 7, according to coroner’s records.\xa0Luis Anaya escaped unscathed. During a memorial at the shooting site Sunday, he and others recounted what they heard and saw that evening.\xa0Anaya told The Times\xa0he didn’t recognize the man,\xa0whose face was “all covered up.” The two had only briefly locked eyes by the time Anaya saw the gun."I couldn\'t make his face," he said. "When I tried to look at him, he shot at me."As mother and daughter lay bleeding in the street, Anaya screamed so loudly that neighbor Robert Navarro said he thought the couple was having an argument.\xa0Navarro ran out of his home and into the intersection, where he found Anaya desperately trying to comfort his mortally wounded girlfriend and daughter.“The baby … she still had her eyes open,” Navarro said. “He was trying to comfort her by calling the grandmother and the grandmother spoke to the baby on the phone.”Twelve hours later, the little girl’s grandmother was standing in the same intersection, screaming out in Spanish and English, asking over and over why her daughter and granddaughter were dead.The shooter fled on foot, heading east. Investigators had yet to determine a motive or identify a suspect in the slaying, leaving neighbors to wonder why anyone would open fire on a young woman and her child.“How are you gonna see a family walking and go crazy?” asked Gabriel Sanchez, 26, a longtime friend of Mancera. “Why would you shoot a child? The child is just living life, innocent.”As far as their friends knew, Anaya and Mancera didn’t have any enemies. Anaya works in construction, and friends said the couple weren’t involved gangs. The two grew up in Long Beach, friends said, and began dating roughly five years ago.Sanchez remembered Mancera as a mischievous and friendly presence when they met at Long Beach’s Washington Middle School more than a decade ago. “She was a real cool girl. No drama with anybody,” she said. “She didn’t have problems with anybody for someone to do this to her and her daughter.”\xa0Anaya and Mancera lived in an apartment on Locust Avenue , a brief walk from the intersection where the shooting took place. The couple’s next-door neighbor, 38-year-old Matt Milewski said he heard four gunshots in total -- an initial blast, then three shots in quick succession.Milewski said gunshots and violence are rare in the neighborhood, which sits less than two miles from the waterfront and just outside Long Beach’s downtown area.At least two dozen people spent several hours Sunday crowded around the small memorial at the site of the shooting, placing votive candles and flowers at the base of the stop sign where Mancera and her daughter were killed. A pastor arrived to lead the group in a prayer, and several people made repeated and futile attempts to console Mancera’s mother, who covered her mouth and nearly fell to the ground as she approached the intersection.Juan Jimenez, a longtime friend of Anaya, said the two had been working construction jobs together in recent years. He couldn’t explain why anyone would want to hurt his friend\'s family, and said Anaya often talked about how safe their neighborhood was.“We were talking about this area and he was like, ‘It’s cool. Nobody messes with me,’” Jimenez said.Navarro said Jennabel was looking forward to September, when she was supposed to start her first year in school. “She got a backpack and she was very happy for the backpack. And then this happens,” Navarro said, tearing up. “So she won’t be making it to school.”Homicide Sgt. Woods dismissed notions that the shooting was linked to gang activity and\xa0expressed disappointment that police tip lines had not been flooded with calls.“I was a little disheartened by that,” he said. “I thought we would just have an influx of information coming from the public. We haven’t had it yet.”Woods would not comment on the type of weapon used. “I will say it was at close range and very brutal,” he said.Police have recovered surveillance footage, but Woods said that alone “is not going to solve our case” and urged more witnesses to come forward.\xa0Though the number of homicides in Long Beach has not increased significantly this year, violent crime across the city jumped by 8% in the first six months of 2016. Mayor Robert Garcia cautioned that crime in the city was still down dramatically over the last decade, and he attributed the recent surge in Long Beach to a larger statewide trend.“We know that violent crime has been increasing in most California cities, especially the larger ones, and so we’re looking at that,” he said. “We’re putting more resources to ensure the community is safe.”Anyone with information should call Long Beach homicide Dets. Scott Lasch and Michael Hubbard at (562) 570-7244. Those wishing to remain anonymous should call\xa0Crime Stoppers at (800) 222-8477.\xa0\xa0Contact\xa0the Homicide Report. Follow\xa0@latimeshomicide\xa0on Twitter.\xa0Do you have information to share about the life of                     Jennabel Anaya                    ? The Homicide Report needs your help. Please fill out this form or e-mail us at homicidereport@latimes.com.'
-
 
 
 It is obvious from the text that the baby is a newborn who was beaten to death. The cause of death listed in the coroner's report is blunt force trauma, however it should be obvious that this is a case of severe child physical abuse.
